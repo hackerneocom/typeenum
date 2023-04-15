@@ -1,0 +1,40 @@
+{
+  "name": "typing-enum",
+  "version": "1.0.0",
+  "description": "A JS/TS library that define enum with intelligent hints.",
+  "files": [
+    "/dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "mocha -r ts-node/register test/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackerneocom/typing-enum.git"
+  },
+  "keywords": [
+    "enum",
+    "ts-enum",
+    "js-enum",
+    "typescript",
+    "Type Hints",
+    "intellisense"
+  ],
+  "author": "hackerneo.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackerneocom/typing-enum/issues"
+  },
+  "homepage": "https://github.com/hackerneocom/typing-enum",
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.11",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1"
+  }
+}
